@@ -1,11 +1,11 @@
+import Router from "./router/Router.jsx";
+
 const App = () => {
 
   return (
-      <>
-        <h1 className="text-2xl font-bold underline">
-          Hello world!
-        </h1>
-      </>
+      <div className="max-h-screen">
+        <Router />
+      </div>
   )
 }
 
